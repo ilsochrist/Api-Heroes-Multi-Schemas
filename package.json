@@ -1,0 +1,38 @@
+{
+  "name": "07-multi-db",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "npm i -g pm2",
+    "postinstall": "npm run test:prod",
+    "test": "nyc --reporter=html mocha --timeout 10000 src/tests/*.js --exit",
+    "test:prod": "cross-env NODE_ENV=prod npm t",
+    "prod": "cross-env NODE_ENV=prod pm2-runtime src/api.js"
+  },
+  "keywords": [],
+  "author": "Ilso Christ",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.2",
+    "@hapi/inert": "^6.0.5",
+    "@hapi/vision": "^6.1.0",
+    "bcryptjs": "^2.4.3",
+    "boom": "^7.3.0",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.1",
+    "hapi-auth-jwt2": "^10.2.0",
+    "hapi-swagger": "^14.5.5",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.6",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "pm2": "^5.2.0",
+    "sequelize": "^6.20.1"
+  },
+  "devDependencies": {
+    "mocha": "^10.0.0",
+    "nyc": "^15.1.0"
+  }
+}
