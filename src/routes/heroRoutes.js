@@ -65,7 +65,7 @@ class HeroRoutes extends BaseRoute {
             method: 'POST',
             config: {
                 tags: ['api'],
-                description: 'Deve cadstrar heroi',
+                description: 'Deve cadastrar heroi',
                 notes: 'deve cadastrar heroi por nome e poder',
                 validate: {
                     failAction,
