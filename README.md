@@ -20,6 +20,7 @@ In this project i learned about the use of callback or promises, manipulation of
 <li>Instanbul</li>
 </ul>
 
-![ezgif com-gif-maker (3)](https://user-images.githubusercontent.com/100448527/179068135-2ad2c9e9-9ef2-4e9a-9a42-734831f7f150.gif)
+![ezgif com-gif-maker (11)](https://user-images.githubusercontent.com/100448527/179079372-c80d753e-9147-4934-a6cd-c4db5d18d31c.gif)
+
 
 
