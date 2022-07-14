@@ -9,7 +9,7 @@ In this project i learned about the use of callback or promises, manipulation of
 
 <h3>## Used tools:</h3>
 <ul>
-<li>JavaScript</li
+  <li>JavaScript</li>
 <li>MongoDB</li>
 <li>Hapi</li>
 <li>Docker</li>
